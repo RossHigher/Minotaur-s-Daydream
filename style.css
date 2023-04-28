@@ -1,0 +1,156 @@
+body{
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+  background-color: #101A37;
+}
+
+.container{
+  position: absolute;
+  left:1000px;
+}
+
+.timer__items {
+  display: flex;
+  font-size: 150px;
+}
+.timer__item {
+  position: relative;
+  min-width: 60px;
+  margin-left: 60px;
+  margin-right: 10px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+.timer__item::before {
+  content: attr(data-title);
+  display: block;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  font-size: 40px;
+}
+.timer__item:not(:last-child)::after {
+  content: ' :';
+  position: absolute;
+  right: -50px;
+}
+.block1{
+  position: absolute;
+  left: 2057px;
+    top: 64px;
+}
+
+.bkg0{
+  position: absolute;
+  width: 450px;
+  height: 1990px;
+  left: 2115px;
+  top: 60px;
+  background-color: #cb1019;
+}
+.bkg{
+  position: absolute;
+  width: 450px;
+  height: 1990px;
+  left: 2097px;
+  top: 38px;
+  background-color:#e95020;
+}
+.bkg1{
+  position: absolute;
+  width: 421px;
+  height: 231px;
+  left: 2111px;
+  top: 56px;
+  background-color: #f4ae76;
+}
+
+.bkg2{
+  position: absolute;
+  width: 421px;
+  height: 231px;
+  left: 2111px;
+  top: 1775px;
+  background-color: #f4ae76;
+}
+
+.block2{
+  position: absolute;
+  left: 0px;
+  top: 36px;
+}
+
+#blockrate{
+  position: relative;
+  max-width: 515px;
+  margin: 76px;
+  padding: auto;
+  left: 2073px;
+  top: 155px;
+}
+
+.par{
+  padding: 57px;
+  font-weight: 10px;
+  font-size: 44px;
+  margin: -34px;
+}
+
+.asa{
+  text-decoration: none;
+  color: black;
+  position: relative;
+  top: 1618px;
+  left: -18px;
+  font-size: 100px;
+}
+.group{
+  position: absolute;
+  left: 2076px;
+  top: 400px;
+}
+
+.bkgr{
+  width: 488px;
+  height: 80px;
+  background-color: #f4ae76;
+  padding: 3px;
+  margin: 45px;
+}
+.group1{
+  position: absolute;
+  left: 2091px;
+  top: 413px;
+}
+
+.bkgr1{
+  width: 488px;
+  height: 80px;
+  background-color: #cb1019;
+  padding: 3px;
+  margin: 45px;
+}
+
+.lineblock{
+  position: absolute;
+  width: 40px;
+  height: 1334px;
+  left: 2070px;
+  top: 415px;
+  background-color: #f4ae76;
+}
+.lineblock1{
+  position: absolute;
+  width: 40px;
+  height: 1334px;
+  left: 2055px;
+  top: 427px;
+  background-color: #cb1019;
+}
+
+.group2{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
